@@ -8,6 +8,8 @@ class Fzy < Formula
   head 'https://github.com/jhawthorn/fzy.git'
 
   def install
-    system 'make', 'install', "PREFIX=#{prefix}"
+    system 'make'
+    bin.install 'fzy'
+    man1.install 'fzy.1'
   end
 end
