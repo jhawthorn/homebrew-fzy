@@ -9,7 +9,6 @@ class Fzy < Formula
 
   def install
     system 'make'
-    bin.install 'fzy'
-    man1.install 'fzy.1'
+    system "make", "PREFIX=#{prefix}", "install"
   end
 end
