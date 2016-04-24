@@ -2,6 +2,8 @@ language: generic
 script:
   - brew tap jhawthorn/fzy
   - brew install fzy
+  - which fzy
+  - fzy --version
 os:
   - osx
 sudo: false
