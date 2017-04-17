@@ -2,8 +2,8 @@ require 'formula'
 
 class Fzy < Formula
   homepage 'https://github.com/jhawthorn/fzy#readme'
-  url 'https://github.com/jhawthorn/fzy/archive/0.8.tar.gz'
-  sha256 '44293ef6a33ef5c9400b9546c580170a2df0ac4342b8fe447cee2af35e241b89'
+  url 'https://github.com/jhawthorn/fzy/archive/0.9.tar.gz'
+  sha256 '72182686806ddce7807d85c27efc321a1b01087643ce8006b1225e3617eecff5'
 
   head 'https://github.com/jhawthorn/fzy.git'
 
